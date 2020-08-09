@@ -7,9 +7,9 @@ public class Main
     {
         try
         {
-            String original = "D:/Rahul classes/Java/Project/a.jpg";
-            String secured= "D:/Rahul classes/Java/Project/secured_pb.jpg";
-            String regained= "D:/Rahul classes/Java/Project/again_pb.jpg";
+            String original = "D:/Java/Project/a.jpg";
+            String secured= "D:/Java/Project/secured_pb.jpg";
+            String regained= "D:/Java/Project/again_pb.jpg";
             String textKey = "secure MY data";
             String key = KeyManager.generateKey(textKey);
 
